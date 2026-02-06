@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     title: "Amar Pal | Software Developer",
     description:
       "Computer Science undergraduate (AI/ML specialization) with hands-on experience in full-stack development, backend systems, database design, and API integration. Experienced in building scalable web applications.",
-    url: "https://portfolio-ten-chi-3suwu3i4ca.vercel.app/",
+    url: "https://amar-portofolio-95.vercel.app/",
     type: "website",
     images: [
       {
-        url: "https://portfolio-ten-chi-3suwu3i4ca.vercel.app/opengraph-image.png",
+        url: "https://amar-portofolio-95.vercel.app/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Amar Pal | Software Developer",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   authors: [
-    { name: "Amar Pal", url: "https://portfolio-ten-chi-3suwu3i4ca.vercel.app/" },
+    { name: "Amar Pal", url: "https://amar-portofolio-95.vercel.app/" },
   ],
   keywords: [
     "Amar Pal",
