@@ -14,16 +14,16 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Amar Pal | Software Developer",
   description:
-    "Software developer specializing in Next.js, TypeScript and Node.js.",
+    "Computer Science undergraduate (AI/ML specialization) with hands-on experience in full-stack development, backend systems, database design, and API integration. Experienced in building scalable web applications.",
   openGraph: {
     title: "Amar Pal | Software Developer",
     description:
-      "Software developer specializing in Next.js, TypeScript, and Node.js. Experienced in building scalable, high-performance applications.",
-    url: "https://amarpalportfolio-blue.vercel.app/",
+      "Computer Science undergraduate (AI/ML specialization) with hands-on experience in full-stack development, backend systems, database design, and API integration. Experienced in building scalable web applications.",
+    url: "https://portfolio-ten-chi-3suwu3i4ca.vercel.app/",
     type: "website",
     images: [
       {
-        url: "https://amarpalportfolio-blue.vercel.app/opengraph-image.png",
+        url: "https://portfolio-ten-chi-3suwu3i4ca.vercel.app/opengraph-image.png",
         width: 1200,
         height: 630,
         alt: "Amar Pal | Software Developer",
@@ -34,22 +34,29 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   authors: [
-    { name: "Amar Pal", url: "https://amarpalportfolio-blue.vercel.app/" },
+    { name: "Amar Pal", url: "https://portfolio-ten-chi-3suwu3i4ca.vercel.app/" },
   ],
   keywords: [
     "Amar Pal",
     "Software Developer",
     "Full-Stack Developer",
+    "AI/ML",
+    "Machine Learning",
     "React",
     "Next.js",
     "TypeScript",
     "Node.js",
-    "AWS",
-    "GCP",
+    "Django",
+    "Python",
+    "Java",
+    "MySQL",
+    "PostgreSQL",
     "MongoDB",
     "Supabase",
     "Tailwind CSS",
     "Web Development",
+    "Backend Development",
+    "REST APIs",
   ],
   creator: "Amar Pal",
   publisher: "Amar Pal",

@@ -28,8 +28,11 @@ import {
   SiSocketdotio,
   SiSass,
   SiShadcnui,
+  SiDjango,
+  SiPostgresql,
 } from "react-icons/si";
 import { TbBrandAdonisJs, TbBrandOpenai } from "react-icons/tb";
+import { FaJava } from "react-icons/fa";
 import { SkillDataProvider } from "../SkillDataProvider";
 import { ReactNode } from "react";
 
@@ -47,6 +50,13 @@ const Skill_data = [
     width: 42,
     height: 42,
     color: "#659AD2",
+  },
+  {
+    skill_name: "Java",
+    Image: FaJava,
+    width: 42,
+    height: 42,
+    color: "#007396",
   },
   {
     skill_name: "JavaScript",
@@ -75,6 +85,13 @@ const Skill_data = [
     width: 42,
     height: 42,
     color: "#4479A1",
+  },
+  {
+    skill_name: "PostgreSQL",
+    Image: SiPostgresql,
+    width: 42,
+    height: 42,
+    color: "#4169E1",
   },
   {
     skill_name: "MongoDB",
@@ -166,6 +183,13 @@ const Skill_data = [
     width: 42,
     height: 42,
     color: "foreground",
+  },
+  {
+    skill_name: "Django",
+    Image: SiDjango,
+    width: 42,
+    height: 42,
+    color: "#092E20",
   },
   {
     skill_name: "Adonis.js",
