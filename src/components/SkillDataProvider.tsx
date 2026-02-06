@@ -28,15 +28,13 @@ export const SkillDataProvider = ({ src: IconComponent, width, color, skill_name
   // Using the previous animation style
   const imageVariants = {
     hidden: { opacity: 0, scale: 0.5 },
-    visible: { opacity: 1, scale: 1 },
-    hover: {
-      scale: 1.15,
-      transition: {
-        type: "spring",
-        stiffness: 300,
-        damping: 10
-      }
-    }
+    visible: { opacity: 1, scale: 1 }
+  };
+
+  const hoverTransition = {
+    type: "spring" as const,
+    stiffness: 300,
+    damping: 10
   };
 
   return (
@@ -45,14 +43,14 @@ export const SkillDataProvider = ({ src: IconComponent, width, color, skill_name
         ref={ref}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
-        whileHover="hover"
+        whileHover={{ scale: 1.15 }}
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => setIsHovered(false)}
         variants={imageVariants}
         transition={{ 
           delay: animationDelay, 
           duration: 0.2, 
-          type: "spring",
+          type: "spring" as const,
           stiffness: 200
         }}
         className="relative"
