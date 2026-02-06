@@ -40,6 +40,7 @@ export const metadata: Metadata = {
     "Amar Pal",
     "Software Developer",
     "Full-Stack Developer",
+    "ML Engineer",
     "React",
     "Next.js",
     "TypeScript",
