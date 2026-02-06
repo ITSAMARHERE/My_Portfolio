@@ -14,10 +14,10 @@ const INFO = [
     text: (
       <> <Link
         target="_blank"
-        href="https://iiitranchi.ac.in/"
+        href="https://www.ticollege.ac.in/"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
-        Indian Institute Of Information Technology, Ranchi
+        Techno Main Salt Lake, Kolkata
       </Link>
       </>
     ),
@@ -31,10 +31,10 @@ const INFO = [
         Previously at{" "}
         <Link
           target="_blank"
-          href="https://bloghunch.com/"
+          href="#"
           className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
         >
-          BlogHunch
+          Intelligent Creation
         </Link>
 
       </>
@@ -46,20 +46,7 @@ const INFO = [
     text: (
       <Link
         target="_blank"
-        href="https://leetcode.com/u/code_15_11/"
-        className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
-      >
-        Quests on Leetcode
-      </Link>
-    ),
-    icon: <Code2 />,
-    className: "text-gray-900 bg-gray-100",
-  },
-  {
-    text: (
-      <Link
-        target="_blank"
-        href="https://www.instagram.com/_abhishek_anand_12/"
+        href="https://www.instagram.com/amar.unfiltered_/"
         className="underline underline-offset-[4px] decoration-gray-200 decoration-[1px] hover:decoration-current"
       >
         Adventures on Instagram

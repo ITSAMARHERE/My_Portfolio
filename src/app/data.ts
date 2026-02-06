@@ -29,7 +29,7 @@ export const DATA = {
     HEADLINE:
       "Computer Science undergraduate (AI/ML specialization) with hands-on experience in full-stack development, backend systems, database design, and API integration.",
     RESUME:
-      "https://drive.google.com/drive/folders/1-sEiUQ51OcPJZuomv-BNx3QT5MFirjH4?usp=drive_link",
+      "https://drive.google.com/file/d/19tNOBK1GFklaLRF5EzzbFsWc0K7ETi94/view?usp=sharing",
     EMAIL: "mailto:tmsl.aiml.amarpal@gmail.com",
     GITHUB: "https://github.com/ITSAMARHERE",
     LINKEDIN: "https://www.linkedin.com/in/amar-pal-a945ba250/",
@@ -95,7 +95,7 @@ export const DATA = {
       LINKS: [{
         LINK_TEXT: "",
         LINK_DESCRIPTION: "Project details available upon request.",
-        LINK_URL: ""
+        LINK_URL: "https://campuscare.live/"
       }]
     },
 
@@ -127,9 +127,37 @@ export const DATA = {
         LINK_URL: ""
       }]
     },
+
+    "Chat Application": {
+      SLUG: "Talka",
+      ICON: "",
+      TITLE: "Talka- Come and Chat",
+      STATUS: "Active",
+      STATUS_TEXT: [],
+      TECH: ["React", "Redux", "ze", "Node.js", "MongoDB", "Express.js"],
+      WEB: "",
+      IOS: "",
+      LINK: "",
+      TAGLINE: "Full-stack Chat application with real-time messaging",
+      HIDDEN: false,
+      CONTENT: [
+        "A comprehensive chat application with real-time messaging capabilities ."
+      ],
+      FEATURES: [
+        "Analyzed chat usage patterns and user activity data.",
+        "Designed database schemas to efficiently store and retrieve message data.",
+        "Supported scalability analysis for concurrent user data handling."
+      ],
+      IMAGE_URL: "/chat.png",
+      LINKS: [{
+        LINK_TEXT: "",
+        LINK_DESCRIPTION: "Project details available upon request.",
+        LINK_URL: ""
+      }]
+    },
   },
   ALL_PROJECTS:
-    "https://github.com/abhis12github?tab=repositories"
+    "https://github.com/ITSAMARHERE?tab=repositories"
 };
 
 export const getProjectData = cache(

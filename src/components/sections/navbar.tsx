@@ -32,7 +32,7 @@ export function Navbar() {
         ariaLabel="Navigate to home"
       >
         <Link href={"/"} className="tracking-tighter font-bold text-xl">
-          abhishek.
+          amar.
         </Link>
       </MovingElement>
 
