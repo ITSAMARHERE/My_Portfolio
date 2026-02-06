@@ -1,7 +1,7 @@
 // ContactSection.jsx
 import React from 'react';
 import Link from 'next/link';
-import { Github, Instagram, Linkedin, Box, FileUser } from 'lucide-react';
+import { Github, Linkedin, FileUser } from 'lucide-react';
 import { MovingElement } from '../navbar';
 
 const ContactSection = () => {
@@ -35,7 +35,7 @@ const ContactSection = () => {
                         ariaLabel="Resume"
                     >
                         <Link
-                            href="mailto:mailtomeabhi15@gmail.com"
+                            href="mailto:tmsl.aiml.amarpal@gmail.com"
                         >
                             Say Hello 🙋🏻‍♂️
                         </Link>
@@ -46,20 +46,14 @@ const ContactSection = () => {
             {/* Social links sidebar */}
             <div className="fixed left-10 bottom-0 hidden lg:block">
                 <div className="flex flex-col items-center">
-                    <Link href="https://github.com/abhis12github" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
+                    <Link href="https://github.com/ITSAMARHERE" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
                         <Github size={20} />
-                    </Link>
-                    <Link href="https://www.instagram.com/_abhishek_anand_12/" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
-                        <Instagram size={20} />
                     </Link>
                     <Link href="https://drive.google.com/drive/folders/1-sEiUQ51OcPJZuomv-BNx3QT5MFirjH4?usp=drive_link" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
                         <FileUser size={20} />   
                     </Link>
-                    <Link href="https://www.linkedin.com/in/abhishek-anand-0b3862257" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
+                    <Link href="https://www.linkedin.com/in/amar-pal-a945ba250" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
                         <Linkedin size={20} />
-                    </Link>
-                    <Link href="https://abhishekportfolio-blue.vercel.app/" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
-                        <Box size={20} />
                     </Link>
                     <div className="h-24 w-px bg-foreground mt-4"></div>
                 </div>
@@ -69,11 +63,11 @@ const ContactSection = () => {
             <div className="fixed right-10 bottom-0 hidden lg:block">
                 <div className="flex flex-col items-center">
                     <Link
-                        href="mailto:mailtomeabhi15@gmail.com"
+                        href="mailto:tmsl.aiml.amarpal@gmail.com"
                         className="text-foreground hover:scale-110 transition-all vertical-text py-3"
                         style={{ writingMode: 'vertical-rl' }}
                     >
-                        mailtomeabhi15@gmail.com
+                        tmsl.aiml.amarpal@gmail.com
                     </Link>
                     <div className="h-24 w-px bg-foreground mt-4"></div>
                 </div>
