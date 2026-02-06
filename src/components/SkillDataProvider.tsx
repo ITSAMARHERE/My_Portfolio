@@ -31,11 +31,11 @@ export const SkillDataProvider = ({ src: IconComponent, width, color, skill_name
     visible: { opacity: 1, scale: 1 }
   };
 
-  const hoverTransition = {
-    type: "spring" as const,
-    stiffness: 300,
-    damping: 10
-  };
+  // const hoverTransition = {
+  //   type: "spring" as const,
+  //   stiffness: 300,
+  //   damping: 10
+  // };
 
   return (
     <div className="flex flex-col items-center gap-2 ">
@@ -62,7 +62,7 @@ export const SkillDataProvider = ({ src: IconComponent, width, color, skill_name
       
       {/* Skill name label with fade-in effect */}
       <motion.span 
-        className="text-xs text-center opacity-80"
+        className="text-xs text-center opacity-80 "
         initial={{ opacity: 0 }}
         animate={{ 
           opacity: isHovered ? 1 : 0.7,

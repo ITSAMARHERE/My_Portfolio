@@ -1,4 +1,4 @@
-import { Briefcase, Code2, Github, GraduationCap, Instagram, Linkedin, Mail, MapPin } from "lucide-react";
+import { Briefcase,Github, GraduationCap, Instagram, Linkedin, Mail, MapPin } from "lucide-react";
 import { MovingElement } from "../navbar";
 import Link from "next/link";
 import clsx from "clsx";
