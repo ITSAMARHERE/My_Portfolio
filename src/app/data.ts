@@ -29,7 +29,7 @@ export const DATA = {
     HEADLINE:
       "Computer Science undergraduate (AI/ML specialization) with hands-on experience in full-stack development, backend systems, database design, and API integration.",
     RESUME:
-      "https://drive.google.com/file/d/1Sq4Qa1AWCrXozIZAbypCSs1nWD6Rvq27/view?usp=sharing",
+      "https://drive.google.com/file/d/1WKX-817DJOT2LhsfPF-YO70AMTvddSff/view?usp=sharing",
     EMAIL: "mailto:tmsl.aiml.amarpal@gmail.com",
     GITHUB: "https://github.com/ITSAMARHERE",
     LINKEDIN: "https://www.linkedin.com/in/amar-pal-a945ba250/",
