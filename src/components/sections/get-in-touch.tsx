@@ -49,7 +49,7 @@ const ContactSection = () => {
                     <Link href="https://github.com/ITSAMARHERE" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
                         <Github size={20} />
                     </Link>
-                    <Link href="https://drive.google.com/file/d/1WKX-817DJOT2LhsfPF-YO70AMTvddSff/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
+                    <Link href="https://drive.google.com/file/d/1QxeQIzG2tKcr-r71WhxX0h9sZHj_zELR/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
                         <FileUser size={20} />   
                     </Link>
                     <Link href="https://www.linkedin.com/in/amar-pal-a945ba250" target="_blank" rel="noopener noreferrer" className="p-3 text-foreground hover:scale-150 transition-all">
